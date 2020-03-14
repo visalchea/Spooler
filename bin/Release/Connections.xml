@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Connections>
+  <Connection>
+    <Name>RPT</Name>
+    <ConnectionString>Data Source = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.2.34)(PORT = 1525)))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME=FCPRI)));User Id=RPT; Password=Fcpro#201910;</ConnectionString>
+  </Connection>  
+  <Connection>
+    <Name>DWH</Name>
+    <ConnectionString>Data Source = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.2.16)(PORT = 1521)))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME=KRDDWH)));User Id=DWH14; Password=Rptdwh_4IT;</ConnectionString>
+  </Connection>
+  <Connection>
+    <Name>DWH12</Name>
+    <ConnectionString>Data Source = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.2.16)(PORT = 1521)))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME=KRDDWH)));User Id=DWH; Password=Rptdwh_4IT;</ConnectionString>
+  </Connection>
+  <Connection>
+    <Name>EOM</Name>
+    <ConnectionString>Data Source = (DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.2.17)(PORT = 1521)))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME=eomjun18)));User Id=krdrpt; Password=Rpt17MAY#18;</ConnectionString>
+  </Connection>
+</Connections>
